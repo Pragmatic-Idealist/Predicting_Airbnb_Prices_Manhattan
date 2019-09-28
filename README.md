@@ -1,7 +1,12 @@
-# Predicting_Airbnb_Prices_Manhattan
-Data Science Project Using Regressions and Web-scrapping to Predict Airbnb Prices in Manhattan
-Created a linear regression model for hosts and guests to maximize return on investment for rental spaces and maximize value while looking for short-term rentals, respectively. 
+# Business Problem/Motivation
 
-Web-scrapped Airbnb.com for listings data. Cleaned data and removed outliers. Created plots and heatmaps to find trends and relationships. Engineered new features and utilized linear regressions and lasso regularization techniques to predict manhattan Airbnb rates during the holidays based on the listing type, number of bedrooms, baths, location, reviews, and other features. Achieved R2 of 0.71 and MAE/Mean of 20%. 
+As a New Yorker who both needed a place to stay when I lived outside of Manhattan, and rent out the idle space of my apartment when I lived there, I frequently needed to use Airbnb to find short term housing and rent out my living room just to afford the rent!
 
-Tools Used:(Beautiful Soup, Selenium, Pandas, Matplotlib, Seaborn, Linear and Polynomial Regression, Lasso and Ridge Regularization)
+This is a dual-sided problem that many New Yorkers and visitors to New York have. So I created a linear regression model that predicts the price of Manhattan Airbnb rentals and show which features of the apartment influences the price. So that hosts can maximize their return on investment on their idle space and guests find the cheapest accommodations given their needs.
+
+Methodology
+1. Web Scraping
+2. Data Cleaning
+3. EDA
+4. Model Training and Validation
+5. Testing
