@@ -19,7 +19,7 @@ This is a dual-sided problem that many New Yorkers and visitors to New York have
 Insert Pictures and Description of Slides
 
 Heatmap
-![Full Heatmap](heatmap.png)
+![Full Heatmap](Heatmap.png)
 
 Positive Correlation heatmap
 
