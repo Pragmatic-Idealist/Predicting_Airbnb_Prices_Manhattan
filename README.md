@@ -1,4 +1,4 @@
-# Predicting Airbnb Rate in Manhattan 
+# Predicting Airbnb Rates in Manhattan 
 
 As a New Yorker who both needed a place to stay when I lived outside of Manhattan, and rent out the idle space of my apartment when I lived there, I frequently needed to use Airbnb to find short term housing and rent out my living room just to afford the rent!
 
