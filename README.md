@@ -8,12 +8,16 @@ This is a dual-sided problem that many New Yorkers and visitors to New York have
 ## Methodology
 **1. Web Scraping**
 I utilized Beautiful Soup and Selenium to extract Airbnb Data from Airbnb.com. The listing data included the target, price and features such as number of guests that can be accomodated, number of beds, number of bathrooms, review rating, and neighboorhood of the listing.
+
 **2. Data Cleaning**
 I conducted data cleaning of the listing data. The raw data from the listings was pretty messy, I utilized ReGex and other text cleaning techniques to standardize and clean data. After cleaning data I had to remove outliers and set proper bounds on what listings I wanted to look at. Steps I took included removing expensive listings and listings with 0 reviews. I wanted to focus on 'moderately priced' Airbnb rentals that have reviews. 
+
 **3. Exploratory Data Analysis**
 I created plots and visualizations to find relationships between features, between the features and plot. Details and charts found below. These relationships between features helped me create interaction terms between features such as total number of stars (number of review * average number of stars).
+
 **4. Model Training and Validation**
 After conducting EDA, I split of data to create a train and test set and created a base linear regression model. I ran different regressions, cross validated them with different cuts of the data, and compared the models against each other.  
+
 **5. Testing**
 I tested the best performing model: Linear Regression with Lasso Regularization
 
