@@ -12,7 +12,7 @@ This is a dual-sided problem that many New Yorkers and visitors to New York have
 4. Model Training and Validation
 5. Testing
 
-## Results
+## Exploratory Data Analysis
 
 **Price Per Night = Accomodations + Location + Listing Type + Reviews**
 
@@ -24,7 +24,7 @@ Negative Correlation heatmap
 
 Reviews
 
-## Best Model
+## Modeling
 
 ## Take Aways
 
