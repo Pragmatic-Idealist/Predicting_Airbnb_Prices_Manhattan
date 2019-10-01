@@ -63,3 +63,5 @@ Reviews
 ![Take Aways](takeaway.png)
 
 ## Future Work
+
+![Take Aways](futurework.png)
