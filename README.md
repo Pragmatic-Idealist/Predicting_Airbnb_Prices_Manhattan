@@ -25,19 +25,41 @@ I tested the best performing model: Linear Regression with Lasso Regularization
 
 **Price Per Night = Accomodations + Location + Listing Type + Reviews**
 
-Insert Pictures and Description of Slides
+Removing Outliers:
 
-Heatmap
-![Full Heatmap](Heatmap.png)
+![Before](pricedistoutliers.png)
 
-Positive Correlation heatmap
+![After](priceoutliersremoved.png)
 
-Negative Correlation heatmap
+Correlation Heatmap
+
+![Important Features](importantfeatures.png)
+
+
+Neighborhood
+
+![Neighborhood](neighborhood_boxplot.png)
+
+
+Type of Listing
+
+![Type of Listing](Listing_type_boxplot.png)
+
+Shared Bathrooms
+
+![Type of Listing](shared_bath_boxplot.png)
+
 
 Reviews
+![Reviews](reviews.png)
+
 
 ## Modeling
 
+![Best Model](finalmodel.png)
+
 ## Take Aways
+
+![Take Aways](takeaway.png)
 
 ## Future Work
