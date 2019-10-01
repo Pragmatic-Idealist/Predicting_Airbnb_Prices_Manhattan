@@ -37,7 +37,7 @@ After removing these outliers, the distribution is far less skewed, and the pred
 
 Correlation Heatmap
 
-![Important Features](heatmap.png)
+![Important Features](Heatmap.png)
 
 Diving deeper into the dataset, I created a correlation heatmap where I found that some features have strong negative and positive correlations with price.
 
