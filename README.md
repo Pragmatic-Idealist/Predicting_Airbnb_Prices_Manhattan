@@ -69,12 +69,15 @@ In this heatmap cutout, Reviews are shown to be also important in determining ho
 The next step is to find the model that best generalizes the relationships between the features and the target, price. After splitting the data into train and test parts, I decided to use a number of linear regression models starting from a base line Linear Regression towards more advanced models such as polynomial regressions with lasso and ridge regularization. Below is a table of the performance of each model. 
 
 
-| Algorithm         | R^2                                    | Notes                         |
+| Algorithm           | R^2                                    | Notes                         |
 | ----------------- | --------------------------------------- | ---------------------------- |
-| Base Linear Regression               | Probably less coding                    | Might need more data         |
-|                   | High personal interest                  | **Only good for score data** |
-| Manual Processing | Needs less data                         | Probably more coding         |
-|                   | **Good for scores and positional data** | Less sexy                    |
+| Base Linear Regression               | 0.67                    | Removed New Listings and added Engineered Features |
+| Second Degree PolyReg                |  0.05                 | Overfit the test data significantly|
+| Base Model with Lasso | 0.68                        | Performed Reasonably well       |
+| Base Model with Ridge  | 0.67| Performed well                   |
+| Polyreg Model with Lasso  | 0.71| Performed well, however after CV, LinReg with Lasso performed better                   |
+| Polyreg Model with Ridge  | 0.70| Performed well, however after CV, LinReg with Lasso performed better                    |
+
 
 ![Best Model](finalmodel.png)
 
