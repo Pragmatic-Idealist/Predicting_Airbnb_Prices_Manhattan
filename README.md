@@ -68,6 +68,15 @@ In this heatmap cutout, Reviews are shown to be also important in determining ho
 
 ![Best Model](finalmodel.png)
 
+
+| Algorithm         | Pros                                    | Cons                         |
+| ----------------- | --------------------------------------- | ---------------------------- |
+| CNN               | Probably less coding                    | Might need more data         |
+|                   | High personal interest                  | **Only good for score data** |
+| Manual Processing | Needs less data                         | Probably more coding         |
+|                   | **Good for scores and positional data** | Less sexy                    |
+
+
 ## Take Aways
 
 ![Take Aways](takeaway.png)
