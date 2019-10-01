@@ -35,7 +35,7 @@ The dataset has listings that had extremely high prices. One listing cost $4000 
 
 After removing these outliers, the distribution is far less skewed, and the predictive power of the model increased.
 
-Correlation Heatmap
+**Correlation Heatmap**
 
 ![Important Features](Heatmap.png)
 
@@ -45,29 +45,23 @@ Diving deeper into the dataset, I created a correlation heatmap where I found th
 
 Features such as Number of Guests, Beds, and Review ratings have the strongest positive correlation with price whereas the feature Shared Baths have strongest negative correlation with price. Other important features include neighborhood and listing space type. 
 
-Neighborhood
 
 ![Neighborhood](neighborhood_boxplot.png)
 
 As you can see from this box plot, the neighborhood influences price as well. Downtown listings are far more expensive than average than uptown listings.
 
 
-Type of Listing
-
 ![Type of Listing](Listing_type_boxplot.png)
 
 From this box plot, it shows that listings that rent out the entire space are more expensive than average than private or shared rooms.
-
-Shared Bathrooms
 
 ![Type of Listing](shared_bath_boxplot.png)
 
 In the last boxplot, shared bathrooms listings are cheaper than average than listings with private bathrooms.
 
-Reviews
 ![Reviews](reviews.png)
 
-In this heatmap, it shows that Reviews are also important in determining how much a host can charge for his/her space and the most important components of Overall Review or Accuracy and Cleanliness, which contribute most to the overall review than any other category.
+In this heatmap cutout, Reviews are shown to be also important in determining how much a host can charge for his/her space. The most important components of Overall Review are Accuracy and Cleanliness, which contribute most to the overall review than any other component.
 
 
 ## Modeling
