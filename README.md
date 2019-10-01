@@ -66,16 +66,17 @@ In this heatmap cutout, Reviews are shown to be also important in determining ho
 
 ## Modeling
 
-![Best Model](finalmodel.png)
+The next step is to find the model that best generalizes the relationships between the features and the target, price. After splitting the data into train and test parts, I decided to use a number of linear regression models starting from a base line Linear Regression towards more advanced models such as polynomial regressions with lasso and ridge regularization. Below is a table of the performance of each model. 
 
 
-| Algorithm         | Pros                                    | Cons                         |
+| Algorithm         | R^2                                    | Notes                         |
 | ----------------- | --------------------------------------- | ---------------------------- |
-| CNN               | Probably less coding                    | Might need more data         |
+| Base Linear Regression               | Probably less coding                    | Might need more data         |
 |                   | High personal interest                  | **Only good for score data** |
 | Manual Processing | Needs less data                         | Probably more coding         |
 |                   | **Good for scores and positional data** | Less sexy                    |
 
+![Best Model](finalmodel.png)
 
 ## Take Aways
 
