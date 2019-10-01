@@ -73,10 +73,10 @@ The next step is to find the model that best generalizes the relationships betwe
 | ----------------- | --------------------------------------- | ---------------------------- |
 | Base Linear Regression               | 0.67                    | Removed New Listings and added Engineered Features |
 | Second Degree PolyReg                |  0.05                 | Overfit the test data significantly|
-| Base Model with Lasso | 0.68                        | Performed Reasonably well       |
-| Base Model with Ridge  | 0.67| Performed well                   |
-| Polyreg Model with Lasso  | 0.71| Performed well, however after CV, LinReg with Lasso performed better                   |
-| Polyreg Model with Ridge  | 0.70| Performed well, however after CV, LinReg with Lasso performed better                    |
+| Linear Regression with Lasso | 0.71                        | Performed Reasonably well       |
+| Linear Regression  with Ridge  | 0.70| Performed well                   |
+| Polyreg Model with Lasso  | 0.68| Performed well, however after CV, LinReg with Lasso performed better                   |
+| Polyreg Model with Ridge  | 0.70| Performed well, however after CV, LinReg with Lasso performed better                   |
 
 
 ![Best Model](finalmodel.png)
