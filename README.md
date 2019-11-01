@@ -61,7 +61,7 @@ In the last boxplot, shared bathrooms listings are cheaper than average than lis
 
 ![Reviews](reviews.png)
 
-Lastly, in this heatmap cutout, Reviews are shown to be also important in determining how much a host can charge for his/her space. The most important components of Overall Review are Accuracy and Cleanliness, which contribute most to the overall review than any other component.
+Lastly, in this heatmap cutout, Reviews are shown to be also important in determining how much a host can charge for his/her space. The most important components of Overall Review are Accuracy and Cleanliness, which are correlated most to the overall review than any other component.
 
 
 ## Modeling
