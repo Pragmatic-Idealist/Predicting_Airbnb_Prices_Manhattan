@@ -13,7 +13,7 @@ I conducted data cleaning of the listing data. The raw data from the listings wa
 I created plots and visualizations to find relationships between features, between the features and plot. Details and charts found below. These relationships between features helped me create interaction terms between features such as total number of stars (number of review * average number of stars).
 
 **4. Model Training and Validation**
-After conducting EDA, I split of data to create a train and test set and created a base linear regression model. I ran different regressions, cross validated them with different cuts of the data, and compared the models against each other.  
+After conducting EDA, I split off data to create a train and test set and created a base linear regression model. I ran different regressions, cross validated them with different cuts of the data, and compared the models against each other.  
 
 **5. Testing**
 I tested the best performing model: Linear Regression with Lasso Regularization
